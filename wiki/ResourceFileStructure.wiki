@@ -201,3 +201,7 @@
 ||OCEAN02.SCR||	001178dd||	4f43a2de||	00||	0000197f||
 ||BACKGRND.BMP||	0011926d||	42419e11||	|| 	000057aa||
 ||CLOUDS.BMP||	0011ea28||	434c99d7||	5000||	00000624||
+
+===BMP resource:===
+||Offset||Size (bytes)||Description||
+||00000000||4||Header, always "BMP:"||
