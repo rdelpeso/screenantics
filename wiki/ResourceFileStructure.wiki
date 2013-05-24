@@ -205,3 +205,19 @@
 ===BMP resource:===
 ||Offset||Size (bytes)||Description||
 ||00000000||4||Header, always "BMP:"||
+||00000004||4||Width/Height bytes, not used||
+||00000008||4||Header, always "INF:"||
+||0000000C||4||Datasize||
+||00000010||2||Number of images||
+||00000012||images*2||Widths of images||
+|| ||images*2||Heights of images||
+|| ||4||Header, always "BIN:"||
+|| ||4||BMP data size||
+|| ||1||Compression method||
+|| ||4||Uncompressed size||
+|| ||Variable||BMP Data||
+|| ||4||Header, always "VGA:"||
+|| ||4||VGA data size||
+|| ||1||Compression method||
+|| ||4||Uncompressed size||
+|| ||Variable||VGA Data (perhaps palette?)||
