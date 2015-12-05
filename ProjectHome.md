@@ -1,0 +1,4 @@
+The ScreenAntics project's goal is to make a rewrite of the engine behind the Johnny Castaway (Screen Antics) screensaver, which is a free and very aged one-of-a-kind screensaver by Sierra Online. The original was written for windows 3.x and can no longer run under the latest versions of Windows without a lot of trickery and sub-optimal conditions. The application does not work on 64-bit Windowe. The goal of this project is:
+1. Decipher the resource files
+2. Rebuild an engine that can read and run the resource files as the original screen saver.
+3. Release the screen saver for several platforms, including Windows, Linux and smartphones.
